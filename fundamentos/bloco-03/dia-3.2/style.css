@@ -1,0 +1,27 @@
+body {
+  font-size: 16px;
+
+}
+
+h1 {
+  font-weight: inherit;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 3em;
+  text-align: center;
+}
+
+#list {
+  color: rgb(25, 49, 105);
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.color {
+  background-color: rgb(220, 232, 232);
+}
