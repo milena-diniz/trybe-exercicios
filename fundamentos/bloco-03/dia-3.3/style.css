@@ -19,17 +19,17 @@
 
 .bowser {
   position: absolute;
+  top: 250px;
   left: 500px;
   width: 200px;
-  top: 250px;
   z-index: 1;
 }
 
 p {
-  font-size: 25px;
   position: absolute;
   top: 120px;
   left: 270px;
+  font-size: 25px;
   z-index: 3;
 }
 
