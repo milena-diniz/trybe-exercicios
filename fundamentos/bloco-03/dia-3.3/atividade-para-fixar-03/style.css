@@ -1,0 +1,43 @@
+#cor-primaria:hover {
+  border: 5px solid red;
+}
+
+#cor-primaria {
+  background-color: pink;
+}
+
+#cor-secundaria:hover {
+  border: 5px solid orange;
+}
+
+#cor-secundaria {
+  background-color: red;
+}
+
+#cor-complementar {
+  font-size: 20px;
+}
+
+#cor-complementar {
+  background-color: orange;
+}
+
+#cor-complementar:hover {
+  border: 5px solid purple;
+}
+
+#cor-escura:hover {
+  border: 5px solid rgb(0, 0, 0);
+}
+
+#cor-escura {
+  background-color: purple;
+}
+
+#cor-clara:hover {
+  border: 5px solid rgb(145, 176, 166);
+}
+
+#cor-clara {
+  background-color: rgb(0, 144, 77);
+}
