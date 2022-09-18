@@ -1,43 +1,60 @@
-#cor-primaria:hover {
+/* 1 - Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda. */
+
+div:hover {
   border: 5px solid red;
 }
 
-#cor-primaria {
-  background-color: pink;
+/* 2 - Faça cada div ter uma cor própria. */
+
+div:nth-of-type(1) {
+  background-color: blue;
 }
 
-#cor-secundaria:hover {
-  border: 5px solid orange;
-}
-
-#cor-secundaria {
-  background-color: red;
-}
-
-#cor-complementar {
-  font-size: 20px;
-}
-
-#cor-complementar {
-  background-color: orange;
-}
-
-#cor-complementar:hover {
-  border: 5px solid purple;
-}
-
-#cor-escura:hover {
-  border: 5px solid rgb(0, 0, 0);
-}
-
-#cor-escura {
+div:nth-of-type(2) {
   background-color: purple;
 }
 
-#cor-clara:hover {
-  border: 5px solid rgb(145, 176, 166);
+div:nth-of-type(3) {
+  background-color: pink;
 }
 
-#cor-clara {
-  background-color: rgb(0, 144, 77);
+div:nth-of-type(4) {
+  background-color: rgb(66, 35, 40);
+}
+
+div:nth-of-type(5) {
+  background-color: rgb(29, 165, 218);
+}
+
+/* 3 - Estilize cada uma das tags h3. */
+div:nth-of-type(1) h3 {
+  color: aquamarine;
+}
+
+div:nth-of-type(2) h3 {
+  color: white;
+}
+
+div:nth-of-type(3) h3 {
+  color: rgb(22, 9, 9);
+}
+
+div:nth-of-type(4) h3 {
+  color: rgb(255, 0, 0);
+}
+
+div:nth-of-type(5) h3 {
+  color: rgb(176, 166, 25);
+}
+
+/* 4 - Faça a terceira div ser maior que as demais. */
+
+div:nth-of-type(3) {
+  font-size: 2em;
+}
+
+/* 5 - Deixe as tags ímpares h3 com o texto em itálico. */
+
+div:nth-of-type(odd) {
+  font-style: italic;
 }
