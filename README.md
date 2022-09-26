@@ -16,9 +16,16 @@ O curso da Trybe é dividido em 4 grandes blocos (Fundamentos do desenvolvimento
  - [X] 2.3 - Internet - Entendendo como ela funciona
 
  ##### Bloco 3: Introdução à HTML e CSS
- -  3.1 - Introdução - HTML & CSS
- -  3.1 - HTML & CSS - Estruturas de página
- -  3.2 - HTML & CSS - Primeiros passos em CSS
- -  3.3 - HTML & CSS - Seletores e posicionamento
- -  3.4 - HTML Semântico
- -  3.5 - Projeto
+ - [X] 3.1 - Introdução - HTML & CSS
+ - [X] 3.1 - HTML & CSS - Estruturas de página
+ - [X] 3.2 - HTML & CSS - Primeiros passos em CSS
+ - [X] 3.3 - HTML & CSS - Seletores e posicionamento
+ - [X] 3.4 - HTML Semântico
+ - [X] 3.5 - [Projeto]
+ 
+ ##### Bloco 4: Introdução à JavaScript e Lógica de Programação
+- [X] 4.1 - JavaScript - Primeiros passos
+- [X] 4.2 - JavaScript - Array e loop For
+- [X] 4.3 - JavaScript - Lógica de Programação e Algoritmos
+-  4.4 - JavaScript - Objetos e funções
+-  4.5 - [Projeto]
