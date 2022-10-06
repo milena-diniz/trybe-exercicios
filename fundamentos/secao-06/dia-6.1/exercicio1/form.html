@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Forms</title>
+</head>
+
+<body>
+  <header>
+    <h2> Forms </h2>
+  </header>
+  <form action="" class="travel-form">
+
+    <section class="secoes">
+      <section class="secaoNomeEEmail">
+        <label for="full-name">Nome:</label>
+        <input type="text" name="name" id="full-name" maxlength="10" minlength="40" placeholder="Nome completo">
+      </section>
+      <section class="secaoNomeEEmail">
+        <label for="e-mail">E-mail:</label>
+        <input type="email" name="" id="e-mail" maxlength="10" minlength="50" placeholder="E-mail">
+      </section>
+    </section>
+
+    <section class="secoes">
+      <section>
+        <input type="radio" name="opcao" id="opcao1">
+        <label for="opcao1">Brusque</label>
+
+        <input type="radio" name="opcao" id="opcao2">
+        <label for="opcao2">Campo</label>
+
+        <input type="radio" name="opcao" id="opcao3">
+        <label for="opcao3">Praia</label>
+
+        <input type="radio" name="opcao" id="opcao4">
+        <label for="opcao4">Montanhas</label>
+      </section>
+
+      <section class="secoes">
+        <h2>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h2>
+        <textarea name="" id="" cols="50" rows="10" maxlength="500"
+          placeholder="Digite sua resposta aqui..."></textarea>
+      </section>
+
+      <section class="secoes">
+        <h2>Qual a melhor data para realizar sua viagem?</h2>
+        <label for="data">Data:</label>
+        <input type="date" name="data" id="data">
+      </section>
+
+      <section class="secoes">
+        <h2>Aceite os termos de conduta</h2>
+        <section>
+          <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+          <label for="checkbox1">Concordo 1</label>
+          <input type="checkbox" name="checkbox" id="checkbox1">
+        </section>
+
+        <section class="secoes">
+          <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+          <label for="checkbox2">Concordo 2</label>
+          <input type="checkbox" name="checkbox" id="checkbox2">
+        </section>
+      </section>
+
+      <section class="secoes">
+        <button type="submit" id="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+      </section>
+    </section>
+  </form>
+
+</body>
+
+</html>
