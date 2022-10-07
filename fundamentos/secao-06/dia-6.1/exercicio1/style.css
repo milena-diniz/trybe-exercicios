@@ -1,4 +1,4 @@
-body {
+/* body {
   text-align: center;
   background-color: rgb(233, 230, 230);
 }
@@ -9,7 +9,6 @@ form {
 }
 
 .travel-form {
-  padding: 20px;
   margin-left: 25%;
   margin-right: 25%;
   border: 3px solid black;
@@ -22,3 +21,8 @@ form {
 .secoes {
   padding: 10px;
 }
+/* 
+textarea {
+  resize: none;
+  display: block;
+} */ */
