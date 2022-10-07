@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  background-color: rgb(233, 230, 230);
+}
+
+
+form {
+  background-color: rgb(197, 196, 196);
+}
+
+.travel-form {
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 3px solid black;
+}
+
+.secaoNomeEEmail {
+  margin-bottom: 5px;
+}
+
+.secoes {
+  padding: 10px;
+}
