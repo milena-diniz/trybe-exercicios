@@ -1,13 +1,22 @@
 import React from 'react';
-import './App.css';
-import Image from './Image';
 
 class App extends React.Component {
   render() {
-  const URL = 'https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492__480.jpg'
-  return (
-      <Image source={ URL } alternativeText="Cute cat staring"/>
-  );
-}}
+    const shoppingList = ['leite', 'arroz', 'feijão', 'banana', 'carne'];
+    const items = shoppingList.map((item, index) => {
+      console.log('item: ', item);
+      return (<li key={index}>{ item }</li>);
+    });
+
+    return (
+      <div>
+        <h2>Lista de compras</h2>
+        <ul>
+          { items }
+        </ul>
+      </div>
+    );
+  }
+}
 
 export default App;
